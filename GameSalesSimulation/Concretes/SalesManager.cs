@@ -8,9 +8,11 @@ namespace GameSalesSimulation.Concretes
 {
     public class SalesManager : ISalesService
     {
-        public void GameSales(Customer customer, Game game)
+       
+
+        public void GameSales(Game game, Customer customer)
         {
-            Console.WriteLine("The game named " + game.GameName + "was bought by" +customer.CustomerName);
+            Console.WriteLine("The game named " + game.GameName + "was bought by" + customer.CustomerName);
         }
     }
 }

@@ -7,7 +7,7 @@ namespace GameSalesSimulation.Abstracts
 {
    public interface ISalesService
     {
-        void GameSales(Customer customer, Game game);
-      
+        
+        void GameSales(Game game, Customer customer);
     }
 }

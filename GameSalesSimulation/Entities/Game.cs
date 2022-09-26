@@ -9,6 +9,6 @@ namespace GameSalesSimulation.Entities
         public int GameId { get; set; }
         public string GameName { get; set; }
         public double Price { get; set; }
-        public string GenreOfGame { get; set; }
+        public string CategoryOfGame { get; set; }
     }
 }
