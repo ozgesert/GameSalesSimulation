@@ -16,7 +16,6 @@ namespace GameSalesSimulation
                 CustomerName = "Özge",
                 CustomerLastName = "Sert",
                 NationalityId = "71674093216"
-
             });
 
             CampaignManager campaignManager = new CampaignManager();
