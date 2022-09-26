@@ -15,7 +15,7 @@ namespace GameSalesSimulation
                 DateOfBirth = new DateTime(1996, 3, 14),
                 CustomerName = "Özge",
                 CustomerLastName = "Sert",
-                NationalityId = "71698093215"
+                NationalityId = "71778093215"
 
             });
 
